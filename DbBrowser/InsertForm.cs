@@ -55,8 +55,9 @@ namespace DbBrowser
             string firstName = FirstNameTextBox.Text.Trim();
             string lastName = LastNameTextBox.Text.Trim();
             string email = EmailTextBox.Text.Trim();
+            string phoneNum = PhoneNumberTextBox.Text.Trim();
             if (firstName.Length > 30 || lastName.Length > 30 || email.Length > 30) return;
-            string query = $"insert into people(first_name,second_name,email) values('{firstName}','{lastName}','{email}')";
+            string query = $"insert into people(first_name,second_name,email,phone_number) values('{firstName}','{lastName}','{email}','{phoneNum}')";
             using (var conn = new System.Data.SqlClient.SqlConnection(DbAccess.GetConnsectionString()))
             {
                 try
