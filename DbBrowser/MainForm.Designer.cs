@@ -50,6 +50,7 @@
             this.DeleteButton = new System.Windows.Forms.Button();
             this.UpdatePhoneBox = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.ClearFilterButton = new System.Windows.Forms.Button();
             this.personBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.UpdateIdBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.personBindingSource)).BeginInit();
@@ -115,7 +116,7 @@
             // 
             // InsertButton
             // 
-            this.InsertButton.Location = new System.Drawing.Point(93, 69);
+            this.InsertButton.Location = new System.Drawing.Point(174, 69);
             this.InsertButton.Name = "InsertButton";
             this.InsertButton.Size = new System.Drawing.Size(75, 23);
             this.InsertButton.TabIndex = 7;
@@ -234,6 +235,16 @@
             this.label7.TabIndex = 20;
             this.label7.Text = "Phone number";
             // 
+            // ClearFilterButton
+            // 
+            this.ClearFilterButton.Location = new System.Drawing.Point(93, 69);
+            this.ClearFilterButton.Name = "ClearFilterButton";
+            this.ClearFilterButton.Size = new System.Drawing.Size(75, 23);
+            this.ClearFilterButton.TabIndex = 21;
+            this.ClearFilterButton.Text = "Clear filter";
+            this.ClearFilterButton.UseVisualStyleBackColor = true;
+            this.ClearFilterButton.Click += new System.EventHandler(this.ClearFilterButton_Click);
+            // 
             // personBindingSource
             // 
             this.personBindingSource.DataSource = typeof(DbBrowser.Person);
@@ -243,6 +254,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(506, 443);
+            this.Controls.Add(this.ClearFilterButton);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.UpdatePhoneBox);
             this.Controls.Add(this.DeleteButton);
@@ -299,6 +311,7 @@
         private System.Windows.Forms.Button DeleteButton;
         private System.Windows.Forms.TextBox UpdatePhoneBox;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button ClearFilterButton;
     }
 }
 
