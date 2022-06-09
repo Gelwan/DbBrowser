@@ -36,6 +36,8 @@
             this.EmailTextBox = new System.Windows.Forms.TextBox();
             this.InsertButton = new System.Windows.Forms.Button();
             this.CancelButton = new System.Windows.Forms.Button();
+            this.PhoneNumberTextBox = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -111,11 +113,29 @@
             this.CancelButton.UseVisualStyleBackColor = true;
             this.CancelButton.Click += new System.EventHandler(this.CancelButton_Click);
             // 
+            // PhoneNumberTextBox
+            // 
+            this.PhoneNumberTextBox.Location = new System.Drawing.Point(12, 142);
+            this.PhoneNumberTextBox.Name = "PhoneNumberTextBox";
+            this.PhoneNumberTextBox.Size = new System.Drawing.Size(196, 20);
+            this.PhoneNumberTextBox.TabIndex = 8;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(11, 126);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(76, 13);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Phone number";
+            // 
             // InsertBox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(222, 216);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.PhoneNumberTextBox);
             this.Controls.Add(this.CancelButton);
             this.Controls.Add(this.InsertButton);
             this.Controls.Add(this.EmailTextBox);
@@ -143,5 +163,7 @@
         private System.Windows.Forms.TextBox EmailTextBox;
         private System.Windows.Forms.Button InsertButton;
         private System.Windows.Forms.Button CancelButton;
+        private System.Windows.Forms.TextBox PhoneNumberTextBox;
+        private System.Windows.Forms.Label label3;
     }
 }

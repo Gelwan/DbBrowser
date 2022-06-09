@@ -113,5 +113,11 @@ namespace DbBrowser
                 }
             }
         }
+
+        private void ClearFilterButton_Click(object sender, EventArgs e)
+        {
+            firstNameTextBox.Text = "";
+            LastNameTextBox.Text = "";
+        }
     }
 }
