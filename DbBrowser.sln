@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbBrowser", "DbBrowser\DbBrowser.csproj", "{B5AF2351-EE65-4189-AE08-09F93A03053F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5AF2351-EE65-4189-AE08-09F93A03053F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5AF2351-EE65-4189-AE08-09F93A03053F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5AF2351-EE65-4189-AE08-09F93A03053F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5AF2351-EE65-4189-AE08-09F93A03053F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2560E2C-056F-4FD6-80BB-86981840F9F2}
+	EndGlobalSection
+EndGlobal
